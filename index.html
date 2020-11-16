@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Smart Press</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<header class="header">
+			<div class="container container-xl">
+				<div class="row align-items-center">
+					<div class="col-auto">
+						<h2 class="mb-0">Smart Press</h2>
+					</div>
+					<div class="col-auto d-none d-lg-block">
+						<div class="stick"></div>
+					</div>
+					<div class="col col-sm-auto">
+						<img src="img/logo.svg" alt="">
+					</div>
+					<div class="col-auto text-danger ml-auto d-none d-md-block">powered by</div>
+					<div class="col-auto d-none d-md-block">
+						<img src="img/powered-1.svg" alt="">
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="section section-1 section-bg">
+			<div class="container">
+				<div class="row no-gutters justify-content-center justify-content-lg-between align-items-end">
+					<form action="#!" class="col-sm-10 col-md-8 col-lg-4 my-3 pb-2">
+						<h2 class="mb-3 pb-3">Keresés</h2>
+						<div class="mb-4 pb-1">
+							<div class="fz-18 font-weight-bold mb-1">Forrás</div>
+							<select class="form-control">
+								<option value="1">összes</option>
+								<option value="2">összes</option>
+								<option value="3">összes</option>
+							</select>
+						</div>
+						<div class="mb-4 pb-1">
+							<div class="fz-18 font-weight-bold mb-1">Ügyészségek</div>
+							<select class="form-control">
+								<option value="1">összes</option>
+								<option value="2">összes</option>
+								<option value="3">összes</option>
+							</select>
+						</div>
+						<div class="mb-4 pb-1">
+							<div class="fz-18 font-weight-bold mb-1">
+								<span class="align-middle">Keresőszavak</span>
+								<img src="img/i.svg" alt="" class="align-middle ml-1">
+							</div>
+							<input type="text" class="form-control" placeholder="keresés">
+							<p class="mt-2 text-gray pb-1">
+								<span class="underline mr-1">Polt Péter</span>
+								<span class="underline mr-1">járási ügyészség</span>
+								<span class="underline mr-1">fellebviteli főügyészség</span>
+							</p>
+						</div>
+						<div class="row mt-2">
+							<div class="col-sm-auto">
+								<button class="btn btn-danger btn-block">Lekérdezés indítása</button>
+							</div>
+						</div>
+					</form>
+					<div class="col-lg-7 col-xl-6 my-3 pb-2">
+						<img src="img/map.svg" alt="">
+						<div class="row justify-content-between mt-5">
+							<div class="col-sm-auto mt-2">
+								<button class="btn btn-secondary btn-block">Polt Péter</button>
+							</div>
+							<div class="col-sm-auto mt-2">
+								<button class="btn btn-secondary btn-block">Nem Főügyészséggel <br> kapcsolatos hírek</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr class="hr-danger">
+				<div class="fz-18 pt-3">
+					<h2 class="mb-3 pb-3">Keresési eredmények</h2>
+					<div>Találat a következőre:</div>
+					<div class="row">
+						<div class="col font-weight-bold text-danger">"összes forrás minden ami nem Járási és Főügyészség"</div>
+						<div class="col-auto">összes találat: 774</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section section-2 collapse" id="collapse">
+			<div class="container">
+				<h2 class="mb-54">Top 10 megjelnés</h2>
+				<div class="text-center mb-54">
+					<img src="img/chart-1.svg" alt="">
+				</div>
+				<h2 class="mb-54">Forrás típusok</h2>
+				<div class="text-center mb-54">
+					<img src="img/chart-2.svg" alt="">
+				</div>
+			</div>
+		</section>
+
+		<a class="scroll" data-toggle="collapse" href="#collapse">
+			<div class="container">
+				<div class="t-1">Diagrammok megtekintése</div>
+				<div class="t-2">Vissza</div>
+				<img src="img/arrow-2.svg" alt="">
+			</div>
+		</a>
+
+		<section class="section section-3">
+			<div class="container container-xl">
+				<div class="table-responsive">
+				  <table class="table table-bordered text-center mb-0">
+				    <thead>
+					    <tr>
+					      <th>
+					      	<p>dátum</p>
+					      	<select class="select"></select>
+					      </th>
+					      <th>
+					      	<p>idő</p>
+					      	<select class="select"></select>
+					      </th>
+					      <th>
+					      	<p>típus</p>
+					      	<select class="select"></select>
+					      </th>
+					      <th>
+					      	<p>megjelenés helye</p>
+					      	<select class="select"></select>
+					      </th>
+					      <th class="mw-250">
+					      	<p>forrás szöveg</p>
+					      	<select class="select"></select>
+					      </th>
+					      <th>
+					      	<p>link</p>
+					      	<select class="select"></select>
+					      </th>
+					      <th>
+					      	<p>cimkék</p>
+					      	<select class="select"></select>
+					      </th>
+					      <th>
+					      	<p>social</p>
+					      	<select class="select"></select>
+					      </th>
+					      <th>
+					      	<p>elérés</p>
+					      	<select class="select"></select>
+					      </th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td>
+					      	<div>2020.</div>
+					      	<div>július</div>
+					      	<div>10.</div>
+					      </td>
+					      <td>1:00</td>
+					      <td>Fórum</td>
+					      <td>
+					      	<div>forum.index.</div>
+					      	<div>hu</div>
+					      </td>
+					      <td class="text-left">
+					      	<b>„Várjunk csak ! Nem az a „független” bíróság ítélte el enyhén, amelyik</b> a gyöngyöspatai cigók jogait védték?” Nem bizony! A bíróság kényszerpályán mozgott, mert az...
+					      </td>
+					      <td>LINK</td>
+					      <td></td>
+					      <td class="nowrap">
+					      	<p><span class="img img-1"></span><span class="align-middle">0</span></p>
+					      	<p><span class="img img-2"></span><span class="align-middle">0</span></p>
+					      	<div><span class="img img-3"></span><span class="align-middle">0</span></div>
+					      </td>
+					      <td></td>
+					    </tr>
+					    <tr>
+					      <td>
+					      	<div>2020.</div>
+					      	<div>július</div>
+					      	<div>10.</div>
+					      </td>
+					      <td>1:21</td>
+					      <td>Komment</td>
+					      <td>
+					      	<div>pestisracok.</div>
+					      	<div>hu</div>
+					      </td>
+					      <td class="text-left">
+					      	<b>A bíróság azt tette, amit a magyar jogszabályok előírnak. Beismerte a tettét,</b> kvázi vádalkut kötött az ügyészséggel. Ebben az esetben a bíróságnak NINCS lehetősége...
+					      </td>
+					      <td>LINK</td>
+					      <td>büntetés, elfogadás</td>
+					      <td class="nowrap">
+					      	<p><span class="img img-1"></span><span class="align-middle">0</span></p>
+					      	<p><span class="img img-2"></span><span class="align-middle">0</span></p>
+					      	<div><span class="img img-3"></span><span class="align-middle">0</span></div>
+					      </td>
+					      <td></td>
+					    </tr>
+					    <tr>
+					      <td>
+					      	<div>2020.</div>
+					      	<div>július</div>
+					      	<div>10.</div>
+					      </td>
+					      <td>2:10</td>
+					      <td>Címlap</td>
+					      <td>hirek.zin.hu</td>
+					      <td class="text-left">
+					      	<b>Amerikai legfelsőbb bíróság: a demokraták nem, de a manhattani ügyész betekinthet Trump</b> üzleti ügyeibe...
+					      </td>
+					      <td>LINK</td>
+					      <td>üzlet</td>
+					      <td class="nowrap">
+					      	<p><span class="img img-1"></span><span class="align-middle">0</span></p>
+					      	<p><span class="img img-2"></span><span class="align-middle">0</span></p>
+					      	<div><span class="img img-3"></span><span class="align-middle">0</span></div>
+					      </td>
+					      <td></td>
+					    </tr>
+					    <tr>
+					      <td>
+					      	<div>2020.</div>
+					      	<div>július</div>
+					      	<div>10.</div>
+					      </td>
+					      <td>3:30</td>
+					      <td>Újság cikk</td>
+					      <td>lokal.hu</td>
+					      <td class="text-left">
+					      	<b>„Várjunk csak ! Nem az a „független” bíróság ítélte el enyhén, amelyik</b>  a gyöngyöspatai cigók jogait védték?” Nem bizony! A bíróság kényszerpályán mozgott, mert az...
+					      </td>
+					      <td>LINK</td>
+					      <td></td>
+					      <td class="nowrap">
+					      	<p><span class="img img-1"></span><span class="align-middle">0</span></p>
+					      	<p><span class="img img-2"></span><span class="align-middle">0</span></p>
+					      	<div><span class="img img-3"></span><span class="align-middle">0</span></div>
+					      </td>
+					      <td></td>
+					    </tr>
+					    <tr>
+					      <td>
+					      	<div>2020.</div>
+					      	<div>július</div>
+					      	<div>10.</div>
+					      </td>
+					      <td>0:40</td>
+					      <td>Facebook</td>
+					      <td>facebook.com</td>
+					      <td class="text-left">
+					      	<b>„Várjunk csak ! Nem az a „független” bíróság ítélte el enyhén, amelyik</b>  a gyöngyöspatai cigók jogait védték?” Nem bizony! A bíróság kényszerpályán mozgott, mert az...
+					      </td>
+					      <td>LINK</td>
+					      <td>büntetés</td>
+					      <td class="nowrap">
+					      	<p><span class="img img-1"></span><span class="align-middle">0</span></p>
+					      	<p><span class="img img-2"></span><span class="align-middle">0</span></p>
+					      	<div><span class="img img-3"></span><span class="align-middle">0</span></div>
+					      </td>
+					      <td></td>
+					    </tr>
+					    <tr>
+					      <td>
+					      	<div>2020.</div>
+					      	<div>július</div>
+					      	<div>10.</div>
+					      </td>
+					      <td>1:31</td>
+					      <td>Újság cikk</td>
+					      <td>blikk.hu</td>
+					      <td class="text-left">
+					      	<b>Irodista lett a börtönévek után Portik volt sofőrjéből – Ám hiába sikerült</b> visszailleszkednie, újra rács mögé kerülhet  H. Istvánt nyolc év után engedték ki a börtönből...
+					      </td>
+					      <td>LINK</td>
+					      <td>fellebezés, döntés</td>
+					      <td class="nowrap">
+					      	<p><span class="img img-1"></span><span class="align-middle">0</span></p>
+					      	<p><span class="img img-2"></span><span class="align-middle">0</span></p>
+					      	<div><span class="img img-3"></span><span class="align-middle">0</span></div>
+					      </td>
+					      <td></td>
+					    </tr>
+					    <tr>
+					      <td>
+					      	<div>2020.</div>
+					      	<div>július</div>
+					      	<div>10.</div>
+					      </td>
+					      <td>0:38</td>
+					      <td>Facebook</td>
+					      <td>facebook.com</td>
+					      <td class="text-left">
+					      	<b>„Várjunk csak ! Nem az a „független” bíróság ítélte el enyhén, amelyik</b>  a gyöngyöspatai cigók jogait védték?” Nem bizony! A bíróság kényszerpályán mozgott, mert az...
+					      </td>
+					      <td>LINK</td>
+					      <td></td>
+					      <td class="nowrap">
+					      	<p><span class="img img-1"></span><span class="align-middle">0</span></p>
+					      	<p><span class="img img-2"></span><span class="align-middle">0</span></p>
+					      	<div><span class="img img-3"></span><span class="align-middle">0</span></div>
+					      </td>
+					      <td></td>
+					    </tr>
+					    <tr>
+					      <td>
+					      	<div>2020.</div>
+					      	<div>július</div>
+					      	<div>10.</div>
+					      </td>
+					      <td>4:00</td>
+					      <td>Újság cikk</td>
+					      <td>infostart.hu</td>
+					      <td class="text-left">
+					      	<b>Kétféle módszerrel is visszaélhettek az autók műszaki vizsgaállomásain Bűnszövetségben, üzletszerűen elkövetett hivatali</b> vesztegetés elfogadásának bűntette miatt folytat...
+					      </td>
+					      <td>LINK</td>
+					      <td>üzlet, elfogadás, visszaélés, közlemény, vesztegetés, hivatal, Budapest</td>
+					      <td class="nowrap">
+					      	<p><span class="img img-1"></span><span class="align-middle">0</span></p>
+					      	<p><span class="img img-2"></span><span class="align-middle">0</span></p>
+					      	<div><span class="img img-3"></span><span class="align-middle">0</span></div>
+					      </td>
+					      <td></td>
+					    </tr>
+					    <tr>
+					      <td>
+					      	<div>2020.</div>
+					      	<div>július</div>
+					      	<div>10.</div>
+					      </td>
+					      <td>4:06</td>
+					      <td>Újság cikk</td>
+					      <td>nepszava.hu</td>
+					      <td class="text-left">
+					      	<b>Kisdedek barátai Nem a Fidesz lenne, hanem így intézné a Kaleta-ügyet,</b> ahogy: a éven át tartó, szorgos eltussolásától éven át tartó, szorgos eltussolásától...
+					      </td>
+					      <td>LINK</td>
+					      <td>büntetés</td>
+					      <td class="nowrap">
+					      	<p><span class="img img-1"></span><span class="align-middle">0</span></p>
+					      	<p><span class="img img-2"></span><span class="align-middle">0</span></p>
+					      	<div><span class="img img-3"></span><span class="align-middle">0</span></div>
+					      </td>
+					      <td></td>
+					    </tr>
+					  </tbody>
+				  </table>
+				</div>
+				<div class="navig">
+					<a href="#!" class="prev big disabled">
+						<img src="img/arrow-3.svg" alt="">
+						<img src="img/arrow-3.svg" alt="">
+					</a>
+					<a href="#!" class="prev disabled">
+						<img src="img/arrow-3.svg" alt="">
+					</a>
+					<a href="#!" class="next">
+						<img src="img/arrow-3.svg" alt="">
+					</a>
+					<a href="#!" class="next big">
+						<img src="img/arrow-3.svg" alt="">
+						<img src="img/arrow-3.svg" alt="">
+					</a>
+					<span class="fz-18">1/50</span>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer text-center">
+			<div class="container container-xl">
+				<div class="row align-items-center justify-content-center justify-content-md-end">
+					<div class="col-sm-auto">
+						<h2 class="mb-sm-0 mr-sm-4 pr-md-3">Smart Press</h2>
+					</div>
+					<div class="col-auto">powered by</div>
+					<div class="col-auto">
+						<img src="img/powered-2.svg" alt="">
+					</div>
+				</div>
+			</div>
+		</footer>
+				
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	</body>
+</html>
