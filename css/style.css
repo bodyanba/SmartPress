@@ -225,4 +225,41 @@ select.form-control {
   flex-direction: column;
   justify-content: center; }
 
+.red {
+  color: #E52835; }
+
+.bg-red {
+  background: #E52835; }
+
+.fz-26 {
+  font-size: 26px; }
+
+.section-bg-blue {
+  background-color: #171E31;
+  padding: 95px 0 130px;
+  background-position: center center;
+  background-image: url(../img/bg-map.svg);
+  background-size: cover; }
+  @media (max-width: 575.98px) {
+    .section-bg-blue {
+      padding: 70px 0; } }
+
+.scroll-2 {
+  color: #E52835 !important;
+  background: #F1F6FB; }
+  .scroll-2:hover {
+    opacity: 0.6; }
+
+.radius-100 {
+  border-radius: 100px; }
+
+.hr-white {
+  border-top-color: #FFF;
+  opacity: 0.2; }
+
+.btn-white {
+  background: #FFF;
+  font-weight: normal;
+  font-size: 18px; }
+
 /*# sourceMappingURL=style.css.map */
